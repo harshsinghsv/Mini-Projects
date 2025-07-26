@@ -1,12 +1,9 @@
-# Mini-Projects
+# 🚀 Mini Projects
 
-#!/bin/bash
-echo "# 🚀 Mini Projects" > README.md
-echo "| Date | Project | Description |" >> README.md
-echo "|------|---------|-------------|" >> README.md
+A collection of my daily mini projects 👨‍💻
 
-for d in */ ; do
-    if [[ "$d" != .* ]]; then
-        echo "| $(date +%Y-%m-%d) | [${d%/}](./${d}) | TODO: Add description |" >> README.md
-    fi
-done
+| Project Name | Link |
+|--------------|------|
+| Login Wave Animation | [Open](./Mini-Projects/Login%20Wave%20Animation) |
+| ToDo App | [Open](./Mini-Projects/ToDo%20App) |
+
